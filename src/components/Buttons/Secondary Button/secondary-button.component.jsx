@@ -1,10 +1,14 @@
 import React from "react";
+import './secondary-button.styles.css'
 
 
+const SecondaryButton = (props) =>{
+    return (
 
-const SecondaryButton = ({elements}) =>{
-    
-    
+        <div className="secondary-button">
+            {props.children}
+        </div>
+    );
 
 }
 
