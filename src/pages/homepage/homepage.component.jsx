@@ -16,7 +16,6 @@ const HomePage = () => (
             <PrimaryButton>Start Writing</PrimaryButton>
             <SecondaryButton>Sign In</SecondaryButton>
             
-            
         </div>
 
         <div className="body">
